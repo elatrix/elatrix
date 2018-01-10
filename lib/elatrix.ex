@@ -7,5 +7,4 @@ defmodule Elatrix do
 
   def stop(_param) do
   end
- 
 end

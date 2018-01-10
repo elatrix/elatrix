@@ -23,4 +23,4 @@ Use `<type>(<scope>): <subject>` format for commits in feature-branches.
 
 ## Versioning
 
-No versioning requirements yet.
+Use semver for versioning. Possibly align versions with Matrix Spec version when ready.
