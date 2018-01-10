@@ -24,3 +24,5 @@ elatrix-*.tar
 
 # VSCode settings
 .vscode
+
+.elixir_ls
