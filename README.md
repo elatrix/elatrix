@@ -20,11 +20,18 @@ You'll need Elixir 1.6-rc or higher.
 
 ```mix compile```
 
+### Run
+
+To start your Phoenix server:
+
+  * Install dependencies with `mix deps.get`
+  * Start Phoenix endpoint with `mix phx.server`
+
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
 ### Start `iex` session
 
-```iex -S mix```
-
-Server will be started at `http://localhost:4000`.
+```iex -S mix phx.server```
 
 ### Make requests
 

@@ -1,10 +1,9 @@
 defmodule Elatrix do
-  use Application
+  @moduledoc """
+  Elatrix keeps the contexts that define your domain
+  and business logic.
 
-  def start(_type, _args) do
-    {:ok, _} = Plug.Adapters.Cowboy.http(Dispatcher, [])
-  end
-
-  def stop(_param) do
-  end
+  Contexts are also responsible for managing your data, regardless
+  if it comes from the database, an external API or others.
+  """
 end
