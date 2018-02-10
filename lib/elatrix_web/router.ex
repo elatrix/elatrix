@@ -2,13 +2,13 @@ defmodule ElatrixWeb.Router do
   use ElatrixWeb, :router
 
   pipeline :api do
-    plug :accepts, ["json"]
+    plug(:accepts, ["json"])
   end
 
   scope "/", ElatrixWeb do
-    pipe_through :api
+    pipe_through(:api)
 
-    get "/", TestController, :index
+    get("/", TestController, :index)
+    post("/login", AuthController, :login)
   end
-
 end
