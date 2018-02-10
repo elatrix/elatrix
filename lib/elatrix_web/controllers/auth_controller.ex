@@ -5,9 +5,9 @@ defmodule ElatrixWeb.AuthController do
     res = Elatrix.Authorisation.authorise(params)
 
     case res do
-      {:ok, user_id, access_token, device_id} ->
+      {:ok, auth_data} ->
         render(conn, "login.json", %{
-          data: %{user_id: user_id, access_token: access_token, device_id: device_id}
+          data: auth_data
         })
 
       {:error_forbidden} ->
