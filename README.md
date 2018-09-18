@@ -8,7 +8,7 @@ Note to ourselves: follow [contributing guidelines](./CONTRIBUTING.md).
 
 ## Prerequisites
 
-You'll need Elixir 1.6-rc or higher.
+You'll need Elixir 1.6 or higher.
 
 ## Development
 
